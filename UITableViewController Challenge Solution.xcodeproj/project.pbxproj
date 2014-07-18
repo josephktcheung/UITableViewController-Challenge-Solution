@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		7C0E089E19790FC900CA17A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E089D19790FC900CA17A1 /* main.m */; };
 		7C0E08A119790FC900CA17A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E08A019790FC900CA17A1 /* AppDelegate.m */; };
-		7C0E08A419790FC900CA17A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E08A319790FC900CA17A1 /* ViewController.m */; };
 		7C0E08A719790FC900CA17A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0E08A519790FC900CA17A1 /* Main.storyboard */; };
 		7C0E08A919790FC900CA17A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0E08A819790FC900CA17A1 /* Images.xcassets */; };
 		7C0E08B519790FC900CA17A1 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E08B419790FC900CA17A1 /* UITableViewController_Challenge_SolutionTests.m */; };
+		7C0E08C01979109400CA17A1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E08BF1979109400CA17A1 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		7C0E089D19790FC900CA17A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C0E089F19790FC900CA17A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C0E08A019790FC900CA17A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7C0E08A219790FC900CA17A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7C0E08A319790FC900CA17A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7C0E08A619790FC900CA17A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C0E08A819790FC900CA17A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7C0E08AE19790FC900CA17A1 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0E08B319790FC900CA17A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C0E08B419790FC900CA17A1 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7C0E08BE1979109400CA17A1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		7C0E08BF1979109400CA17A1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +81,9 @@
 			children = (
 				7C0E089F19790FC900CA17A1 /* AppDelegate.h */,
 				7C0E08A019790FC900CA17A1 /* AppDelegate.m */,
-				7C0E08A219790FC900CA17A1 /* ViewController.h */,
-				7C0E08A319790FC900CA17A1 /* ViewController.m */,
 				7C0E08A519790FC900CA17A1 /* Main.storyboard */,
+				7C0E08BE1979109400CA17A1 /* TableViewController.h */,
+				7C0E08BF1979109400CA17A1 /* TableViewController.m */,
 				7C0E08A819790FC900CA17A1 /* Images.xcassets */,
 				7C0E089B19790FC900CA17A1 /* Supporting Files */,
 			);
@@ -215,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C0E08A419790FC900CA17A1 /* ViewController.m in Sources */,
 				7C0E08A119790FC900CA17A1 /* AppDelegate.m in Sources */,
+				7C0E08C01979109400CA17A1 /* TableViewController.m in Sources */,
 				7C0E089E19790FC900CA17A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
